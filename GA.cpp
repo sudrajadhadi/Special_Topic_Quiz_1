@@ -36,8 +36,8 @@ class self
 public:
     string chromosome;
     int fitness;
-    Individual(string chromosome);
-    Individual mate(self parent2);
+    self(string chromosome);
+    self mate(self parent2);
     int calculate_fitness();
 };
 
